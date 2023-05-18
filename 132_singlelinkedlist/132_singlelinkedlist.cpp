@@ -59,4 +59,8 @@ bool serachNode(int nim, Node* current, Node* previous) {
 	{
 		return false;
 	}
+	else if (current->noMhs == nim)
+	{
+		return true;
+	}
 }
