@@ -57,6 +57,6 @@ bool serachNode(int nim, Node* current, Node* previous) {
 	}
 	if (current == NULL)
 	{
-		return true;
+		return false;
 	}
 }
